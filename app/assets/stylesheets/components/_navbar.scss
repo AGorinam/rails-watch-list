@@ -1,6 +1,16 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: rgba(183, 183, 183,0.2);
+  .fas {
+    text-decoration: none;
+    color: rgba(0,0,0,0.3);
+    font-size: 40px;
+    margin-right: 20px;
+  }
+
+  .fas:hover {
+    color: black;
+  }
 }
 
 .navbar-lewagon .navbar-collapse {
